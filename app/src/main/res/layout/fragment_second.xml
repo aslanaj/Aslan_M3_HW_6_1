@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".SecondFragment">
+
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/tv_song"
+      android:textColor="@color/black"
+      android:textSize="20sp"
+      android:textStyle="bold"
+      android:id="@+id/tv_song_get"
+      app:layout_constraintStart_toStartOf="@id/tv_number"
+      app:layout_constraintTop_toTopOf="parent"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/tv_singer"
+      android:textColor="@color/black"
+      android:textSize="16sp"
+      android:id="@+id/tv_singer_get"
+      android:layout_marginTop="10dp"
+      />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/tv_song_time"
+      android:id="@+id/tv_song_time_get"
+      android:textSize="14sp"
+      android:textColor="@color/black"
+      android:layout_marginTop="10dp"
+      />
+
+
+
+
+
+</LinearLayout>

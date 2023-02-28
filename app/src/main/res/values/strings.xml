@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Aslan_M3_HW_6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tv_title">Now Playing</string>
+    <string name="tv_preview">Me, myself and I</string>
+    <string name="tv_singer_name">G-Eazy</string>
+    <string name="tv_number">1</string>
+    <string name="tv_singer">Singer name</string>
+    <string name="tv_song">Song name</string>
+    <string name="tv_song_time">time 5:00</string>
+</resources>
